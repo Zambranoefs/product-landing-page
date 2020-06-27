@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header id="header">
+        <div id="logo">
+            <img src="https://i.imgur.com/afXpDlK.png" alt="" id="header-img"><span id="brand">BIKE-KINGS</span>
+        </div>
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How it works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="text-center">Reliable, durable masterpieces</h1>
+        <form action="https://www.freecodecamp.org/email-submit" id="form">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" class="centered" required><br>
+            <input id="submit" type="submit" class="centered" value="GET STARTED!">
+        </form>
+        <section id="features" class="centered">
+            <div class="icons">
+                <img src="https://i.imgur.com/wIOk4n6.png" alt="A black flame icon" class="float-left">
+                <img src="https://i.imgur.com/DqBVWAU.png" alt="A black shipping truck icon" style="height:3.5em;">
+                <img src="https://i.imgur.com/6y3Oyai.png" alt="A black border-gray fill battery icon" style="height:1.5em;">
+            </div>
+            <div class="descriptions">
+                <div>
+                    <h2>Premium materials</h2>
+                    <p>Our bicycles are made of high-quality non-stainless steel. This will increase the longetivity of your purchase<p>
+                </div>
+                <div> 
+                    <h2>Fast shipping</h2>
+                    <p>We make sure you receive your bicycle only 24 hours after your purchase. We also provide free returns 
+                    if you are not satisfied.</p>
+                </div>
+                <div>
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults on your bicycle.</p>
+                </div>
+            </div>
+        </section>
+        <section id="how-it-works" class="text-center">
+            <h2>Don't you know how to ride a bike? Watch this video!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GyLlw1CgXf8" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen id="video" style="border: 1px solid #003366;"></iframe>
+        </section>
+        <section id="pricing">
+            <h2 id="pricing-heading">SELECT YOUR BIKE</h2>
+            <div class="bikes">
+                <h3>CITY BIKE</h3>
+                <img src="https://i.imgur.com/Jj9DBcy.png" alt="A drawing of a black city bike">
+                <div class="price">$300</div>
+                <button class="select">SELECT</button>
+            </div>
+            <div class="bikes">
+                <h3>MOUNTAIN BIKE</h3>
+                <img src="https://i.imgur.com/7x2kPa1.png" alt="A drawing of a black mountain bike">
+                <div class="price">$400</div>
+                <button class="select">SELECT</button>
+            </div>
+            <div class="bikes">
+                <h3>FOLDING BIKE</h3>
+                <img src="https://i.imgur.com/lMOx7kE.png" alt="A drawing of a black folding bike">
+                <div class="price">$500</div>
+                <button class="select">SELECT</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
